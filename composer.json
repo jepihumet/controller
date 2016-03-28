@@ -1,0 +1,29 @@
+{
+    "name": "jepi/controller",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Jepi Humet",
+            "email": "jepihumet@gmail.com",
+            "homepage": "http://jepihumet.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0",
+        "jepi/config": "*",
+        "jepi/router": "*",
+        "jepi/storage": "*",
+        "jepi/view": "*",
+        "php-di/php-di": "*",
+        "doctrine/annotations": "~1.2",
+        "ocramius/proxy-manager": "~1.0",
+        "twig/twig": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jepi\\Controller\\": "src"
+        }
+    }
+}
